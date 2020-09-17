@@ -13,6 +13,8 @@ for(let activeLink of activeLinks){
 
   /* [IN PROGRESS] add class 'active' to the clicked link */
 
+  event.preventDefault();
+
   const clickedElement = this;
 
   console.log('clickedElement (with plus): ' + clickedElement);
@@ -28,6 +30,13 @@ for(let activeArticle of activeArticles){
   }
 
   /* get 'href' attribute from the clicked link */
+
+  const articleSelector = 'this';
+
+  const clickedElement = clickedElement.getAttribute(href);
+
+  console.log(articleSelector);
+
 
   /* find the correct article using the selector (value of 'href' attribute) */
 
