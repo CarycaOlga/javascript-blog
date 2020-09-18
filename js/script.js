@@ -31,9 +31,7 @@ for(let activeArticle of activeArticles){
 
   /* get 'href' attribute from the clicked link */
 
-  const articleSelector = 'this';
-
-  const clickedElement = clickedElement.getAttribute(href);
+  const articleSelector = clickedElement.getAttribute('href');
 
   console.log(articleSelector);
 
