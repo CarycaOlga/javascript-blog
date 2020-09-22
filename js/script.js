@@ -110,3 +110,31 @@ console.log(links);
 for(let link of links){
   link.addEventListener('click', titleClickHandler);
 }
+
+function generateTags(){
+  /* find all articles */
+
+  /* START LOOP: for every article: */
+
+    /* find tags wrapper */
+
+    /* make html variable with empty string */
+
+    /* get tags from data-tags attribute */
+
+    /* split tags into array */
+
+    /* START LOOP: for each tag */
+
+      /* generate HTML of the link */
+
+      /* add generated code to html variable */
+
+    /* END LOOP: for each tag */
+
+    /* insert HTML of all the links into the tags wrapper */
+
+  /* END LOOP: for every article: */
+}
+
+generateTags();
