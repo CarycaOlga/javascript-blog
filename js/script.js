@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const titleClickHandler = function(){
   console.log('Link was clicked!');
@@ -45,7 +45,7 @@ const titleClickHandler = function(){
   /* [DONE] add class 'active' to the correct article */
 
   targetArticle.classList.add('active');
-}
+};
 
 const optArticleSelector = '.post',
   optTitleSelector = '.post-title',
@@ -55,13 +55,13 @@ function generateTitleLinks(){
 
   /* remove contents of titleList */
 
-  const titleList = document.querySelector(optTitleListSelector);
+  const titleList = document.querySelector (optTitleListSelector);
 
   function clearMessages(){
-	   titleList.innerHTML = '';
-   }
+    titleList.innerHTML = '';
+  }
 
-   clearMessages();
+  clearMessages();
   /* for each article */
 
   const articles = document.querySelectorAll (optArticleSelector);
