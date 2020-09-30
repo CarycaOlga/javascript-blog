@@ -111,4 +111,33 @@ body {
 .post-tags ul li {
   margin-right: 10px;
 }
+
+.tag-size1 {
+  font-size: 80%;
+}
+
+.tag-size2 {
+  font-size: 160%;
+}
+
+.tag-size3 {
+  font-size: 240%;
+}
+
+.tag-size4 {
+  font-size: 320%;
+}
+
+.tag-size5 {
+  font-size: 400%;
+}
+
+.tags li {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.tags li a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
